@@ -1,0 +1,114 @@
+@keyframes animate-fade-in-up
+{
+   0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-opacity
+{
+   0% { opacity: 1;  }
+   50% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@keyframes heartbeat-1
+{
+   0% { transform: rotate(0deg) ;  }
+   15% { transform: rotate(0deg) scale(1.2,1.2) ;  }
+   25% { transform: rotate(0deg) scale(1.1,1.1) ;  }
+   35% { transform: rotate(0deg) scale(1.2,1.2) ;  }
+   100% { transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@keyframes transform-bounce
+{
+   0% { transform: rotate(0deg) ;  }
+   20% { transform: rotate(0deg) ;  }
+   40% { transform: translate(0px,-30px) rotate(0deg) ;  }
+   50% { transform: translate(0px,0px) rotate(0deg) ;  }
+   60% { transform: translate(0px,-15px) rotate(0deg) ;  }
+   80% { transform: translate(0px,0px) rotate(0deg) ;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ;  }
+}
+@keyframes clip-path-chevron-enter
+{
+   0% { clip-path: polygon(-25% 0%, 0% 50%, -25% 100%, -100% 100%, -75% 50%, -100% 0%);  }
+   75% { clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);  }
+   100% { clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);  }
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
